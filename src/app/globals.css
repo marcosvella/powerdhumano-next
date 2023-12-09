@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --power-yellow-200: #f9d74e;
+  --power-yellow-600: #FFCE00;
+  --power-purple-200: #F7EDFF;
+  --power-purple-400: #63157C;
+  --power-purple-500: #8d00bc;
+  --power-purple-600: #6F43A1;
+  --power-purple-800: #6D459F;
+  --power-dark-purple: #2B0E35;
+  --power-yellow-gradient: linear-gradient(to bottom, #f9d74e 0%, #FFCE00 100%);
+  --power-purple-gradient: linear-gradient(106.75deg, #2B0E35 0%, #63157C 100%);
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
